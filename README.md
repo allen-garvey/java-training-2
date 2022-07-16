@@ -9,8 +9,7 @@
 
 ## Getting Started
 
-* 
-* 
+* See individual sub-project READMEs
 
 ## License
 

@@ -39,3 +39,5 @@ Thumbs.db
 
 # Elixir phoenix dialyzer
 .elixir_ls/*
+
+node-request-tester/node_modules/*

@@ -41,3 +41,6 @@ Thumbs.db
 .elixir_ls/*
 
 node-request-tester/node_modules/*
+sandbox/.gradle/*
+
+sandbox/build/*

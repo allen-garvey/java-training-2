@@ -28,13 +28,6 @@ public class DemoController {
         String message = "Max not updated";
         
         if(max > DemoService.max){
-            // try {
-            //     Thread.sleep((long)(Math.random() * 1));
-            // }
-            // catch(Exception e){
-
-            // }
-
             DemoService.calculatedMax = Math.pow(max, 60) / (Math.pow(DemoService.max, 5) + 1) + 4938;
             NumberFormat numberFormat = NumberFormat.getInstance();
             message = String.format("Max updated, it is now: %s", numberFormat.format(max));
